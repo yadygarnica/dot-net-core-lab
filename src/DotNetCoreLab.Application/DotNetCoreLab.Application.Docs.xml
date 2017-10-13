@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DotNetCoreLab.Presentation</name>
+    </assembly>
+    <members>
+        <member name="T:DotNetCoreLab.Presentation.V1.Controllers.TransactionsController">
+            <inheritdoc />
+        </member>
+        <member name="M:DotNetCoreLab.Presentation.V1.Controllers.TransactionsController.Get">
+            <summary>
+            GET api/v1/transactions.
+            Get the last 100 transactions from the db.
+            Not implemented yet.
+            </summary>
+        </member>
+        <member name="M:DotNetCoreLab.Presentation.V1.Controllers.TransactionsController.Get(System.String)">
+            <summary>
+            GET api/v1/transactions/id.
+            Get a proccessed transaction from the db.
+            Not implemented yet.
+            </summary>
+            <param name="id">Id of the Transaction</param>
+            <returns>A Transaction.</returns>
+        </member>
+        <member name="M:DotNetCoreLab.Presentation.V1.Controllers.TransactionsController.Delete(System.String)">
+            <summary>
+             DELETE api/v1/transactions/transactioId.
+             Delete a transaction from de db.
+            Not implemented yet.
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:DotNetCoreLab.Presentation.V1.Controllers.TransactionsController.Put(System.String,DotNetCoreLab.Core.Models.Transaction)">
+            <summary>
+             PUT api/v1/transaction/transactioId.
+            Not implemented yet.
+            </summary>
+        </member>
+        <member name="M:DotNetCoreLab.Presentation.V1.Controllers.TransactionsController.Post(DotNetCoreLab.Core.Models.Transaction)">
+            <summary>
+            POST api/v1/transactions
+            Proccess a Transaction and save it into a db.
+            </summary>
+        </member>
+        <member name="T:DotNetCoreLab.Presentation.V2.Controllers.TransactionsController">
+            <inheritdoc />
+        </member>
+        <member name="M:DotNetCoreLab.Presentation.V2.Controllers.TransactionsController.Get">
+            <summary>
+            GET api/v1/transactions
+            Get the last 100 transactions from the db
+            Not implemented yet.
+            </summary>
+        </member>
+        <member name="M:DotNetCoreLab.Presentation.V2.Controllers.TransactionsController.Get(System.String)">
+            <summary>
+            GET api/v1/transactions/id
+            Get a proccessed transaction from the db.
+            Not implemented yet.
+            </summary>
+            <param name="id">Id of the Transaction</param>
+            <returns>A Transaction.</returns>
+        </member>
+        <member name="M:DotNetCoreLab.Presentation.V2.Controllers.TransactionsController.Delete(System.String)">
+            <summary>
+             DELETE api/v2/transactions/transactioId.
+             Delete a transaction from de db.
+            Not implemented yet.
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:DotNetCoreLab.Presentation.V2.Controllers.TransactionsController.Put(System.String,DotNetCoreLab.Core.Models.Transaction)">
+            <summary>
+             PUT api/v2/transaction/transactioId.
+            Not implemented yet.
+            </summary>
+        </member>
+        <member name="M:DotNetCoreLab.Presentation.V2.Controllers.TransactionsController.Post(DotNetCoreLab.Core.Models.Transaction)">
+            <summary>
+            POST api/v1/transactions
+            Proccess a Transaction and save it into a db.
+            </summary>
+        </member>
+    </members>
+</doc>

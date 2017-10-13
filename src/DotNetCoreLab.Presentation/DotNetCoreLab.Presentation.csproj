@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>DotNetCoreLab.Presentation</AssemblyName>
+    <Description></Description>
+    <Authors></Authors>
+    <Company></Company>
+    <Product>DotNetCoreLab.Presentation</Product>
+    <PackageId>DotNetCoreLab.Presentation</PackageId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>..\DotNetCoreLab.Application\DotNetCoreLab.Application.Docs.xml</DocumentationFile>
+    <OutputPath>..\..\artifacts\Debug\</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\..\artifacts\Release\</OutputPath>
+    <DocumentationFile>..\DotNetCoreLab.Application\DotNetCoreLab.Application.Docs.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetCoreLab.Core\DotNetCoreLab.Core.csproj" />
+  </ItemGroup>
+
+</Project>
